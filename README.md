@@ -57,8 +57,8 @@ Here is an overview of the project directory structure:
 lambda-starter/
 ├── client/                   # Optional client-side module using React.js
 ├── src/
-│   ├── handlers/             # Lambda │   ├── routes/               # Define your API routes here
-function handlers
+│   ├── handlers/             # Lambda function handlers
+│   ├── routes/               # Define your API routes here
 │   ├── models/               # Database models (if applicable)
 │   ├── utils/                # Utility functions
 │   ├── views/                # Template views (if using templating engines)
