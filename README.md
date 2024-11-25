@@ -6,7 +6,7 @@ This project is a Node.js and Express starter template designed for serverless a
 
 Before starting, ensure you have the following installed:
 
-- [Node.js](https://nodejs.org/) (version 14 or higher recommended)
+- [Node.js](https://nodejs.org/) (version 18 or higher recommended)
 - [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ## Getting Started
