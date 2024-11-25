@@ -1,0 +1,13 @@
+:root {
+    background-color: var(--mantine-color-gray-1);
+}
+
+body {
+    background-color: var(--mantine-color-gray-3);
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
