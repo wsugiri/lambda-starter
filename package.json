@@ -1,0 +1,28 @@
+{
+  "name": "lambda-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app",
+    "test": "node tests/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mysql2": "^3.11.4",
+    "sequelize": "^6.37.5",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-lambda": "^3.699.0",
+    "@aws-sdk/client-s3": "^3.699.0",
+    "@aws-sdk/s3-request-presigner": "^3.699.0"
+  }
+}

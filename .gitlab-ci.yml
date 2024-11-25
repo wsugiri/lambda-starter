@@ -1,0 +1,21 @@
+stages:
+  - deploy
+
+deploy_lambda:
+  image: node:18
+  stage: deploy
+  variables:
+    BUCKET_NAME: {bucket_name}
+    APP_NAME: {app_name}
+    AWS_REGION: 
+    ROLE_NAME: 
+    RUNTIME: nodejs20.x
+    ENV_STAGE: {dev/prod}
+    LIMIT_FUNC: 10
+    LIMIT_LAYER: 5
+    STATIC_INDEX: index.html
+  script:
+    - chmod +x deploy.sh
+    - exec ./deploy.sh
+  only:
+    # - develop
